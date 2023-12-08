@@ -1,0 +1,12 @@
+if(fork())
+printf("A\n");
+if(fork())
+if(fork())
+execlp("echo","echo","B", NULL);
+printf("C\n");
+execlp("echo","echo","D",NULL);
+
+A - 1
+B - 2
+C - 4
+D - 4

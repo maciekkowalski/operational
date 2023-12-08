@@ -1,0 +1,16 @@
+fork(); 
+if(fork()
+	printf("A\n");
+int id=fork();
+printf("B\n);
+
+if(id==0)
+	execlp("echo","echo",C, NULL);
+if(fork()==id)
+
+printf("D"\n);
+
+A - 2
+B - 8 
+C - 4
+D - 0 

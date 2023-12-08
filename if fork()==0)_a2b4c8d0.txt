@@ -1,0 +1,18 @@
+fork();
+
+print("A\n");
+
+fork();
+
+if(fork()==0)
+printf("B\n);
+execlp("echo","echo",C, NULL);
+
+fork();
+
+printf("D\n");
+
+A - 2 
+B - 4
+C - 8
+D - 0

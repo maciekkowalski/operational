@@ -1,0 +1,22 @@
+int id=fork();
+
+fork();
+
+print("A\n");
+
+if(id==0){
+
+printf("B\n);
+
+fork();
+
+execlp("echo","echo","C",NULL);
+
+}
+
+printf("D\n); 
+
+A - 4
+B - 2
+C - 4
+D - 2
